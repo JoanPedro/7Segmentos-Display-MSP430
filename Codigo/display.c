@@ -19,17 +19,30 @@
   			delay();
   			P1OUT = 0x66; //4
   			delay();
- 			  P1OUT = 0x6D; //5
+ 			P1OUT = 0x6D; //5
   			delay();
   			P1OUT = 0x7D; //6
   			delay();
- 			  P1OUT = 0x07; //7
- 	    	delay();
+ 			P1OUT = 0x07; //7
+ 	    		delay();
   			P1OUT = 0x7F; //8
   			delay();
   			P1OUT = 0x6F; //9
-  			delay();	
-	    }
+  			delay();
+  			P1OUT = 0x77; //A
+  			delay();
+  			P1OUT = 0x7C; //b
+  			delay();
+  			P1OUT = 0x39; //C
+ 			delay();
+ 			P1OUT = 0x5E; //d
+			delay();
+			P1OUT = 0x79; //E
+			delay();
+			P1OUT = 0x71; //F
+			delay();
+  		}
+	}
 
   // Instância do delay manual 
 	void delay()
