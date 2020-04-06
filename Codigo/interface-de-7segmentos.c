@@ -11,7 +11,7 @@
   
   			P1OUT = 0x00; // Sem segmentos ON
   			P1OUT = 0x01; // segmento a  ON
- 			  P1OUT = 0x02; // segmento b  ON
+ 			P1OUT = 0x02; // segmento b  ON
   			P1OUT = 0x04; // segmento c  ON
   			P1OUT = 0x08; // segmento d  ON
   			P1OUT = 0x10; // segmento e  ON
